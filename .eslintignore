@@ -1,0 +1,10 @@
+/build
+/Resources
+node_modules
+/Resources
+/plugins
+/platform
+/i18n
+/modules
+/app/vendor
+/app/lib/alloy/underscore.js

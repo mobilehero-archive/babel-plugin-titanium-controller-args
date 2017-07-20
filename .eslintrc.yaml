@@ -1,0 +1,165 @@
+parserOptions:
+  ecmaVersion: 6
+  sourceType: module
+  ecmaFeatures:
+    modules: true
+env:
+  es6: true
+  node: true
+extends: 'eslint:recommended'
+globals:
+  $: true
+  Alloy: true
+  Backbone: true
+  DIST_ADHOC: false
+  DIST_STORE: false
+  ENV_DEV: false
+  ENV_DEVELOPMENT: false
+  ENV_PRODUCTION: false
+  ENV_TEST: false
+  OS_ANDROID: false
+  OS_IOS: false
+  OS_MOBILEWEB: false
+  OS_WINDOWS: false
+  Ti: false
+  Titanium: false
+  _: true
+  alert: false
+  describe: true
+  it: true
+  mocha: true
+  stringify: true
+plugins:
+  - jsdoc
+  - promise
+rules:
+  array-bracket-spacing:
+    - error
+    - always
+    - arraysInArrays: false
+      objectsInArrays: false
+  arrow-spacing:
+    - error
+  brace-style:
+    - error
+    - 1tbs
+    - allowSingleLine: true
+  comma-dangle:
+    - error
+    - arrays: always-multiline
+      exports: always-multiline
+      functions: ignore
+      imports: always-multiline
+      objects: always-multiline
+  comma-spacing:
+    - error
+    - after: true
+      before: false
+  curly:
+    - error
+    - all
+  indent:
+    - error
+    - tab
+    - SwitchCase: 1
+      FunctionExpression:
+        body: 1
+  key-spacing:
+    - error
+    - multiLine:
+        align: value
+  keyword-spacing:
+    - error
+  linebreak-style:
+    - off
+    - unix
+  no-case-declarations: off
+  no-cond-assign: off
+  no-console: off
+  no-control-regex: off
+  # no-fallthrough: off
+  no-fallthrough: error
+  no-inner-declarations: off
+  no-lonely-if: error
+  no-mixed-spaces-and-tabs: off
+  no-multiple-empty-lines:
+    - error
+    - max: 2
+  # no-octal: off
+  no-trailing-spaces:
+    - error
+    - skipBlankLines: false
+  no-undef: error
+  no-unused-vars:
+    - warn
+    - varsIgnorePattern: ^on[A-Z]
+  no-whitespace-before-property:
+    - error
+  object-curly-newline:
+    - error
+    - multiline: true
+  object-curly-spacing:
+    - error
+    - always
+  one-var:
+    - error
+    - never
+  prefer-const:
+    - error
+    - destructuring: any
+      ignoreReadBeforeAssign: false
+  quotes:
+    - error
+    - single
+    - avoidEscape: true
+      allowTemplateLiterals: true
+  require-jsdoc:
+    - warn
+    - require:
+        ArrowFunctionExpression: false
+        ClassDeclaration: false
+        FunctionDeclaration: true
+        MethodDefinition: false
+  semi:
+    - error
+    - always
+  space-before-blocks:
+    - error
+    - always
+  space-before-function-paren:
+    - error
+    - anonymous: always
+      asyncArrow: always
+      named: ignore
+  space-in-parens:
+    - error
+    - never
+  space-infix-ops:
+    - error
+    - int32Hint: false
+  spaced-comment:
+    - error
+    - always
+    - exceptions:
+        - '-'
+        - '*'
+      markers:
+        - 'TODO:'
+        - 'HACK:'
+        - 'FIXME:'
+  valid-jsdoc:
+    - warn
+    - prefer:
+        arg: param
+        argument: param
+        return: returns
+      preferType:
+        Boolean: boolean
+        Number: number
+        Object: object
+        String: string
+  # valid-typeof: off
+  valid-typeof: error
+
+
+

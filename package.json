@@ -1,0 +1,27 @@
+{
+	"name": "babel-plugin-titanium-controller-args",
+	"version": "1.0.0",
+	"description": "Babel plugin to replace string references to $.args",
+	"keywords": [],
+	"homepage": "git://github.com/brentonhouse/babel-plugin-titanium-controller-args",
+	"bugs": {
+		"url": "https://github.com/brentonhouse/babel-plugin-titanium-controller-args/issues",
+		"email": "brenton.house@gmail.com"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Brenton House",
+		"email": "brenton.house@gmail.com",
+		"url": "https://github.com/brentonhouse"
+	},
+	"main": "babel-plugin-titanium-controller-args.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/brentonhouse/babel-plugin-titanium-controller-args.git"
+	},
+	"devDependencies": {},
+	"engines": {
+		"node": ">=0.10"
+	}
+}
