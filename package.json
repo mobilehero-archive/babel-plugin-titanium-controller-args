@@ -1,6 +1,6 @@
 {
 	"name": "babel-plugin-titanium-controller-args",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "⭐  Axway Amplify plugin for replacing string references in Appcelerator Titanium SDK Framework",
 	"scripts": {
 		"lint": "eslint . --fix",
