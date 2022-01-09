@@ -1,8 +1,15 @@
 {
 	"name": "babel-plugin-titanium-controller-args",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "⭐  Axway Amplify plugin for replacing string references in Appcelerator Titanium SDK Framework",
-	"scripts": {},
+	"scripts": {
+		"lint": "eslint . --fix",
+		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"prep": "npm install --ignore-scripts",
+		"test": "npm run prep",
+		"prepublishOnly": "git pull && npm test && bump insane",
+		"prepublishOnly2": "git pull && npm test && npm audit fix && bump insane"
+	},
 	"keywords": [
 		"axway",
 		"appcelerator",
@@ -37,7 +44,7 @@
 	},
 	"devDependencies": {
 		"@geek/eslint-config": "^1.0.3",
-		"@titanium/eslint-config": "^1.0.9",
+		"@titanium/eslint-config": "^1.0.11",
 		"eslint": "^8.6.0"
 	},
 	"engines": {
@@ -54,19 +61,19 @@
 		"@geek/spawn": "^0.0.3",
 		"@geek/spinner": "^1.0.0",
 		"@geek/tld": "^2.0.1-1",
-		"@titanium/appcelerator": "^6.0.4",
-		"@titanium/bluebird": "^3.7.9",
-		"@titanium/errors": "^1.0.7",
-		"@titanium/essentials": "^1.0.38",
+		"@titanium/appcelerator": "^6.0.5",
+		"@titanium/bluebird": "^3.7.10",
+		"@titanium/errors": "^1.0.8",
+		"@titanium/essentials": "^1.0.39",
 		"@titanium/events": "^1.0.20",
-		"@titanium/eventsource": "^1.0.5",
-		"@titanium/jwt": "^1.0.9",
+		"@titanium/eventsource": "^1.0.6",
+		"@titanium/jwt": "^1.0.11",
 		"@titanium/module-copier": "^1.0.15",
 		"@titanium/please": "^1.0.17",
 		"@titanium/polyfill": "^1.0.18",
-		"@titanium/querystring": "^1.0.3",
-		"@titanium/tiapp-xml": "^1.0.15",
-		"@titanium/titanium": "^5.4.8",
-		"@titanium/turbo": "^2.2.24"
+		"@titanium/querystring": "^1.0.4",
+		"@titanium/tiapp-xml": "^1.0.16",
+		"@titanium/titanium": "^5.4.9",
+		"@titanium/turbo": "^2.2.25"
 	}
 }
