@@ -1,6 +1,6 @@
 {
 	"name": "babel-plugin-titanium-controller-args",
-	"version": "1.0.35",
+	"version": "1.0.36",
 	"description": "⭐  Axway Amplify plugin for replacing string references in Appcelerator Titanium SDK Framework",
 	"scripts": {
 		"lint": "eslint . --fix",
@@ -44,7 +44,7 @@
 	},
 	"devDependencies": {
 		"@geek/eslint-config": "^1.0.3",
-		"@titanium/eslint-config": "^1.0.45",
+		"@titanium/eslint-config": "^1.0.46",
 		"eslint": "^8.9.0"
 	},
 	"engines": {
@@ -62,27 +62,27 @@
 		"@geek/spinner": "^1.0.2",
 		"@geek/tld": "^2.0.1-1",
 		"@nativeloop/mobile": "^1.0.40",
-		"@titanium/appcelerator": "^6.0.39",
-		"@titanium/authentication": "^1.0.50",
-		"@titanium/authentication-mock": "^1.0.35",
+		"@titanium/appcelerator": "^6.0.40",
+		"@titanium/authentication": "^1.0.51",
+		"@titanium/authentication-mock": "^1.0.36",
 		"@titanium/authentication-oauth": "^1.0.56",
 		"@titanium/bluebird": "^3.7.44",
-		"@titanium/errors": "^1.0.41",
+		"@titanium/errors": "^1.0.42",
 		"@titanium/essentials": "^1.0.73",
-		"@titanium/events": "^1.0.49",
-		"@titanium/eventsource": "^1.0.44",
-		"@titanium/identity": "^2.0.42",
-		"@titanium/json5": "^1.0.34",
-		"@titanium/jsonc": "^1.0.36",
-		"@titanium/jwt": "^1.0.41",
+		"@titanium/events": "^1.0.50",
+		"@titanium/eventsource": "^1.0.45",
+		"@titanium/identity": "^2.0.43",
+		"@titanium/json5": "^1.0.35",
+		"@titanium/jsonc": "^1.0.37",
+		"@titanium/jwt": "^1.0.42",
 		"@titanium/module-copier": "^1.0.47",
-		"@titanium/please": "^1.0.50",
-		"@titanium/polyfill": "^1.0.48",
+		"@titanium/please": "^1.0.51",
+		"@titanium/polyfill": "^1.0.49",
 		"@titanium/querystring": "^1.0.40",
 		"@titanium/tiapp-xml": "^1.0.50",
-		"@titanium/titanium": "^5.4.47",
+		"@titanium/titanium": "^5.4.48",
 		"@titanium/turbo": "^2.2.67",
-		"nativeloop": "^1.0.34",
-		"tiapp-dir": "^1.0.38"
+		"nativeloop": "^1.0.35",
+		"tiapp-dir": "^1.0.39"
 	}
 }
